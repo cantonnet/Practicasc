@@ -10,7 +10,9 @@ namespace Practicasc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo");
+            string nombre = "Alejandro";
+            Console.WriteLine(nombre.Substring(4));
+            Console.WriteLine(nombre);
             Console.Read();
         }
     }
